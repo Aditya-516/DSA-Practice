@@ -18,7 +18,7 @@ vector<int> Union(vector<int> &arr1,vector<int> &arr2){
 
     for(int i=0;i<arr2.size();i++){
         bool found = false ;
-        for(int j=0;j<arr2.size();j++){
+        for(int j=0;j<temp.size();j++){
             if(arr2[i]==temp[j]){
                 found = true ;
                 break ;
